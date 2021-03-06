@@ -15,7 +15,7 @@ unsigned long startTime, time;
 
 //The start and end position of the servo. These will NEED to be adjusted to test before attatching to the claw or it will likely break
 #define closedPos 0
-#define openPos 180
+#define openPos 90
 
 void setup() {
   Serial.begin(9600);
